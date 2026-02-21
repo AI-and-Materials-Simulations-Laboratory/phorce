@@ -1,0 +1,93 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phorce"
+version = "1.0.0"
+description = "Phosphorus Heuristic for Observable Rule-based Classification of Environmental behavior"
+readme = "README.md"
+authors = [
+    {name = "PHORCE Development Team"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+keywords = [
+    "environmental-chemistry",
+    "phosphorus",
+    "fate-analysis",
+    "classification",
+    "cheminformatics",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "scipy>=1.10",
+    "matplotlib>=3.8",
+    "seaborn>=0.12",
+    "typer>=0.12.0",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0",
+]
+rdkit = [
+    "rdkit>=2023.3",
+]
+all = [
+    "phorce[dev,rdkit]",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-org/phorce"
+Repository = "https://github.com/your-org/phorce"
+
+[project.scripts]
+phorce = "phorce.cli.main:app"
+
+[tool.setuptools]
+packages = ["phorce", "phorce.core", "phorce.behaviors", "phorce.phases", "phorce.cli"]
+
+[tool.setuptools.package-data]
+phorce = ["py.typed"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "I", "W", "B", "C90"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+addopts = "-v --cov=phorce --cov-report=term-missing"

@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e" scale="6" border="0">
+    <diagram name="Page-1" id="W8sRGoWsZLSDzmxb1MPX">
+        <mxGraphModel dx="914" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="kRRaDgnpg-T3-74IK_pe-1" target="kRRaDgnpg-T3-74IK_pe-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-1" value="Load Preprocessed CSV" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="kRRaDgnpg-T3-74IK_pe-2" target="kRRaDgnpg-T3-74IK_pe-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-2" value="Identify Numeric Features" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="120" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="kRRaDgnpg-T3-74IK_pe-3" target="kRRaDgnpg-T3-74IK_pe-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-3" value="Compute Feature Stats" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="kRRaDgnpg-T3-74IK_pe-4" target="kRRaDgnpg-T3-74IK_pe-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-4" value="Compute Correlation Matrix" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="280" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="kRRaDgnpg-T3-74IK_pe-5" target="kRRaDgnpg-T3-74IK_pe-6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="160" y="440"/>
+                            <mxPoint x="300" y="440"/>
+                            <mxPoint x="300" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-5" value="Identify High Correlations" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="360" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="kRRaDgnpg-T3-74IK_pe-6" target="kRRaDgnpg-T3-74IK_pe-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-6" value="Scale Data" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="40" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="kRRaDgnpg-T3-74IK_pe-7" target="kRRaDgnpg-T3-74IK_pe-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-7" value="Run PCA" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="120" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="kRRaDgnpg-T3-74IK_pe-8" target="kRRaDgnpg-T3-74IK_pe-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-8" value="Variance + Loadings" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="200" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="kRRaDgnpg-T3-74IK_pe-14" target="kRRaDgnpg-T3-74IK_pe-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-14" value="Assemble Report" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;strokeColor=#56517e;fillColor=#d0cee2;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="280" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="kRRaDgnpg-T3-74IK_pe-15" value="Write Report + Plots" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;strokeColor=#56517e;fillColor=#d0cee2;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="360" width="240" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

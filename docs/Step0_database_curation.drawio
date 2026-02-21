@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e" scale="6" border="0">
+    <diagram name="Page-1" id="Wj7GN3hZYNmB3nncV_fG">
+        <mxGraphModel dx="88" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="SCg0ZSXnb8RSycIs035j-1" target="SCg0ZSXnb8RSycIs035j-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SCg0ZSXnb8RSycIs035j-1" value="Interactive PubChem Query " style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="40" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="SCg0ZSXnb8RSycIs035j-2" target="SCg0ZSXnb8RSycIs035j-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SCg0ZSXnb8RSycIs035j-2" value="Cross-Reference" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="120" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="SCg0ZSXnb8RSycIs035j-3" target="SCg0ZSXnb8RSycIs035j-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SCg0ZSXnb8RSycIs035j-3" value="CID Harmonization" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="200" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="SCg0ZSXnb8RSycIs035j-4" target="SCg0ZSXnb8RSycIs035j-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SCg0ZSXnb8RSycIs035j-4" value="Remove Duplicates" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="280" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="SCg0ZSXnb8RSycIs035j-5" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1140" y="380"/>
+                            <mxPoint x="1140" y="140"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SCg0ZSXnb8RSycIs035j-5" value="Structure Validation" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="360" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="12" target="SCg0ZSXnb8RSycIs035j-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1280" y="100"/>
+                            <mxPoint x="1000" y="100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Interactive ChemSpider Query" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="40" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" source="14" target="16" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Feature Scraping" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="120" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;strokeWidth=3;" edge="1" source="16" target="18" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Annotation Handling" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="200" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;strokeWidth=3;" edge="1" source="18" target="19" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Feature Typing" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="280" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Final P1M Dataset" style="whiteSpace=wrap;strokeWidth=3;fontSize=16;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="360" width="240" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

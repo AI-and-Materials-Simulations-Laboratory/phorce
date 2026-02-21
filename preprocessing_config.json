@@ -1,0 +1,422 @@
+{
+    "input_file": "P1M.csv",
+    "output_file": "data/processed/P1M_preprocessed.csv",
+    "output_dir": "data/processed",
+    
+    "general_settings": {
+        "random_seed": 777,
+        "verbose": true,
+        "save_preprocessing_report": true,
+        "report_output": "data/processed/preprocessing_report.json"
+    },
+    
+    "column_handling": {
+        "drop_columns": [],
+        "keep_columns": ["cid", "cmpdname", "cmpdsynonym", "mw", "mf", "polararea", 
+        "complexity", "xlogp", "heavycnt", "hbonddonor", "hbondacc", "rotbonds", "inchi", 
+        "isosmiles", "canonicalsmiles", "inchikey", "iupacname", "exactmass", "monoisotopicmass", 
+        "charge", "covalentunitcnt", "isotopeatomcnt", "totalatomstereocnt", "definedatomstereocnt", 
+        "undefinedatomstereocnt", "totalbondstereocnt", "definedbondstereocnt", "undefinedbondstereocnt", 
+        "pclidcnt", "gpidcnt", "gpfamilycnt", "meshheadings", "annothits", "annothitcnt", 
+        "cidcdate", "sidsrcname", "depcatg", "annotation", "aids", "xlogp"],
+        "required_columns": [],
+        "id_column": "cid",
+        "smiles_column": "canonicalsmiles"
+    },
+    
+    "missing_value_handling": {
+        "strategy": "drop_rows",
+        "missing_threshold_columns": 1.00,
+        "missing_threshold_rows": 0.5,
+        "drop_columns_with_all_missing": false,
+        "drop_rows_with_missing_required": false,
+        "missing_value_indicators": ["", "NA", "N/A", "NaN", "nan", "null", "None", ".", "-", "?"]
+    },
+    
+    "duplicate_handling": {
+        "remove_duplicates": false,
+        "duplicate_subset": ["canonicalsmiles"],
+        "keep_strategy": "first"
+    },
+    
+    "text_cleaning": {
+        "enabled": false,
+        "strip_whitespace": true,
+        "lowercase_columns": [],
+        "remove_special_chars_columns": []
+    },
+    
+    "numeric_cleaning": {
+        "enabled": false,
+        "remove_negative_values_columns": ["mw", "polararea", "complexity", "heavycnt", "hbonddonor", "hbondacc", "rotbonds"],
+        "remove_zero_values_columns": [],
+        "clip_outliers": false,
+        "outlier_method": "iqr",
+        "outlier_multiplier": 3.0,
+        "outlier_columns": ["mw", "xlogp", "polararea", "complexity"]
+    },
+    
+    "chemical_validation": {
+        "enabled": false,
+        "validate_smiles": false,
+        "validate_inchi": false,
+        "remove_invalid_smiles": false,
+        "remove_invalid_inchi": false,
+        "remove_disconnected_structures": false,
+        "remove_salts": false,
+        "neutralize_charges": false
+    },
+    
+    "data_type_enforcement": {
+        "enabled": false,
+        "integer_columns": ["cid", "heavycnt", "hbonddonor", "hbondacc", "rotbonds", "charge", "covalentunitcnt", "isotopeatomcnt", "totalatomstereocnt", "definedatomstereocnt", "undefinedatomstereocnt", "totalbondstereocnt", "definedbondstereocnt", "undefinedbondstereocnt", "pclidcnt", "gpidcnt", "gpfamilycnt", "annothitcnt"],
+        "float_columns": ["mw", "polararea", "complexity", "xlogp", "exactmass", "monoisotopicmass"],
+        "string_columns": ["cmpdname", "cmpdsynonym", "mf", "inchi", "isosmiles", "canonicalsmiles", "inchikey", "iupacname", "meshheadings", "annothits", "aids", "cidcdate", "sidsrcname", "depcatg", "annotation"]
+    },
+    
+    "feature_selection": {
+        "enabled": false,
+        "remove_constant_columns": false,
+        "remove_quasi_constant_columns": false,
+        "quasi_constant_threshold": 0.99,
+        "remove_highly_correlated": false,
+        "correlation_threshold": 0.95
+    },
+    
+    "filtering": {
+        "enabled": false,
+        "mw_range": [0, 2000],
+        "xlogp_range": [-10, 10],
+        "heavy_atom_range": [1, 200],
+        "custom_filters": []
+    },
+    
+    "encoding": {
+        "enabled": false,
+        "categorical_columns": [],
+        "encoding_method": "label"
+    },
+    
+    "logging": {
+        "log_level": "INFO",
+        "log_file": "data/processed/preprocessing.log"
+    },
+    
+    "domain_labeling": {
+        "enabled": true,
+        "input_file": "data/engineered/P1M_engineered.csv",
+        "output_dir": "data/labeled",
+        "output_file": "data/labeled/domain_labeled_compounds.csv",
+        "report_output": "data/labeled/domain_labeling_report.json",
+        
+        "text_columns": ["meshheadings", "annotation", "cmpdsynonym", "annothits", "aids", "sidsrcname"],
+        "case_sensitive": false,
+        "save_combined_text_column": false,
+        
+        "domains": {
+            "soil_related": {
+                "enabled": true,
+                "keywords": [
+                    "soil", "sediment", "earth", "geochemistry", "sorption", "adsorption",
+                    "desorption", "retention", "runoff", "leaching", "terrestrial",
+                    "clay", "loam", "sand", "humic", "biochar", "compost", "microbial activity",
+                    "rhizosphere", "field study", "agronomic"
+                ],
+                "save_subset": true,
+                "subset_filename": "soil_related_compounds.csv"
+            },
+            "water_related": {
+                "enabled": true,
+                "keywords": [
+                    "aquatic", "marine", "water", "groundwater", "hydrology", "daphnia", "fish", "toxicity",
+                    "ocean", "stream", "lake", "river"
+                ],
+                "save_subset": true,
+                "subset_filename": "water_related_compounds.csv"
+            },
+            "crop_related": {
+                "enabled": true,
+                "keywords": [
+                    "crop", "plant", "weed", "herbicide", "pesticide", "fertilizer",
+                    "agriculture", "field"
+                ],
+                "save_subset": true,
+                "subset_filename": "crop_related_compounds.csv"
+            }
+        },
+        
+        "labeling_options": {
+            "match_whole_word": false,
+            "use_regex": false,
+            "minimum_keyword_matches": 1,
+            "create_multi_domain_subset": true,
+            "multi_domain_filename": "multi_domain_compounds.csv"
+        },
+        
+        "visualization": {
+            "enabled": true,
+            "output_dir": "data/labeled/plots",
+            "figure_format": "png",
+            "dpi": 150,
+            
+            "correlation_heatmaps": {
+                "enabled": true,
+                "features": ["mw", "xlogp", "polararea", "complexity", "rotbonds", "hbonddonor", "hbondacc", "heavycnt", "charge"],
+                "colormap": "coolwarm",
+                "annotate": true,
+                "figsize": [10, 8]
+            },
+            
+            "violin_plots": {
+                "enabled": true,
+                "features": ["mw", "xlogp", "polararea", "complexity", "rotbonds", "hbonddonor", "hbondacc"],
+                "figsize": [12, 6],
+                "palette": "Set2"
+            }
+        }
+    },
+    
+    "feature_engineering": {
+        "enabled": true,
+        "input_file": "data/processed/P1M_preprocessed.csv",
+        "output_dir": "data/engineered",
+        "output_file": "data/engineered/P1M_engineered.csv",
+        "report_output": "data/engineered/feature_engineering_report.json",
+        
+        "features": [
+            {
+                "name": "TotalHBond",
+                "operation": "add",
+                "columns": ["hbonddonor", "hbondacc"],
+                "description": "Total hydrogen bond donors and acceptors"
+            }
+        ]
+    },
+    
+    "domain_subsets": {
+        "enabled": true,
+        "input_file": "data/labeled/water_related_compounds.csv",
+        "output_dir": "data/subsets",
+        "output_file": "data/subsets/P1M_with_subsets.csv",
+        "report_output": "data/subsets/subset_report.json",
+        "save_individual_subsets": true,
+        
+        "column_aliases": {
+            "MolLogP": ["xlogp", "logp", "MolLogP"],
+            "TPSA": ["polararea", "tpsa", "TPSA"],
+            "TotalHBond": ["TotalHBond", "totalhbond"],
+            "MW": ["mw", "MW"],
+            "complexity": ["complexity"],
+            "rotbonds": ["rotbonds"],
+            "charge": ["charge"]
+        },
+        
+        "subsets": [
+            {
+                "name": "Water_Soluble",
+                "description": "Highly water-soluble compounds with low LogP and high polar surface area",
+                "parent_domain": "water_related",
+                "logic": "and",
+                "conditions": [
+                    {"column": "MolLogP", "operator": "<=", "value": 0.95},
+                    {"column": "TPSA", "operator": ">", "value": 74.9}
+                ]
+            },
+            {
+                "name": "Aquatic_Bioavailable",
+                "description": "Compounds bioavailable in aquatic environments with moderate LogP and limited H-bonding",
+                "parent_domain": "water_related",
+                "logic": "and",
+                "conditions": [
+                    {"column": "MolLogP", "operator": "between", "value": [0.95, 3.05]},
+                    {"column": "TotalHBond", "operator": "<=", "value": 5.5}
+                ]
+            },
+            {
+                "name": "Bioconcentration_Risk",
+                "description": "Lipophilic compounds with bioconcentration potential in aquatic organisms",
+                "parent_domain": "water_related",
+                "logic": "and",
+                "conditions": [
+                    {"column": "MolLogP", "operator": ">", "value": 3.05},
+                    {"column": "TPSA", "operator": "<=", "value": 60}
+                ]
+            },
+            {
+                "name": "Persistence",
+                "description": "Compounds with high complexity and rotational flexibility suggesting environmental persistence",
+                "parent_domain": null,
+                "logic": "and",
+                "conditions": [
+                    {"column": "complexity", "operator": ">", "value": 600},
+                    {"column": "rotbonds", "operator": ">", "value": 5}
+                ]
+            },
+            {
+                "name": "Soil_Mobility",
+                "description": "Compounds with properties suggesting mobility in soil environments",
+                "parent_domain": null,
+                "logic": "and",
+                "conditions": [
+                    {"column": "MolLogP", "operator": "<", "value": 2.5},
+                    {"column": "TPSA", "operator": "<", "value": 90},
+                    {"column": "charge", "operator": "between", "value": [-1, 1]}
+                ]
+            }
+        ]
+    },
+
+    "processed_analysis": {
+        "enabled": true,
+        "input_file": "data/processed/P1M_preprocessed.csv",
+        "output_dir": "data/analysis/processed",
+        "report_output": "data/analysis/processed/report.json",
+        
+        "random_seed": 42,
+        
+        "features": {
+            "numeric": ["mw", "xlogp", "polararea", "hbonddonor", "hbondacc", "complexity", "rotbonds", "charge"],
+            "categorical": []
+        },
+        
+        "pca_analysis": {
+            "enabled": true,
+            "n_components": 5
+        },
+        
+        "visualization": {
+            "enabled": true,
+            "plot_distributions": true,
+            "plot_correlation": true,
+            "plot_pca": true,
+            "plot_boxplots": true,
+            "figsize": [14, 8],
+            "dpi": 150
+        }
+    },
+
+    "domain_analysis": {
+        "enabled": true,
+        "input_file": "data/labeled/domain_labeled_compounds.csv",
+        "output_dir": "data/analysis/domains",
+        "report_output": "data/analysis/domains/report.json",
+        
+        "random_seed": 42,
+        "test_size": 0.3,
+        "cv_folds": 5,
+        
+        "features": {
+            "numeric": ["mw", "xlogp", "polararea", "hbonddonor", "hbondacc", "complexity", "rotbonds", "charge"],
+            "categorical": []
+        },
+        
+        "target_domains": ["soil_related", "water_related", "crop_related"],
+        
+        "pca_analysis": {
+            "enabled": true,
+            "n_components": 5
+        },
+        
+        "similarity_analysis": {
+            "enabled": true,
+            "max_samples": 8000 
+        },
+        
+        "model_settings": {
+            "max_depth_range": [1, 2, 3, 4, 5],
+            "n_estimators_range": [10, 20, 30, 40, 50, 75, 100],
+            "learning_rate_range": [0.01, 0.05, 0.075, 0.1, 0.2, 0.3, 0.4, 0.5],
+            "min_child_weight_range": [1, 2, 3, 4, 5, 10],
+            "scoring_metric": "f1_macro"
+        },
+        
+        "rule_extraction": {
+            "enabled": true,
+            "extract_feature_ranges": true,
+            "save_rules_to_file": true
+        },
+        
+        "visualization": {
+            "enabled": true,
+            "plot_feature_importance": true,
+            "plot_confusion_matrix": true,
+            "plot_roc_curve": true,
+            "plot_pca": true,
+            "plot_similarity": true,
+            "figsize": [10, 8],
+            "dpi": 150
+        }
+    },
+
+    "subdomain_analysis": {
+        "enabled": true,
+        "input_file": "data/subsets/P1M_with_subsets.csv",
+        "output_dir": "data/analysis/subdomains",
+        "report_output": "data/analysis/subdomains/report.json",
+        
+        "random_seed": 42,
+        "test_size": 0.3,
+        "cv_folds": 5,
+        
+        "features": {
+            "numeric": ["mw", "xlogp", "polararea", "hbonddonor", "hbondacc", "TotalHBond", "complexity", "rotbonds", "charge"],
+            "categorical": []
+        },
+        
+        "target_subdomains": ["Water_Soluble", "Aquatic_Bioavailable", "Bioconcentration_Risk", "Persistence", "Soil_Mobility"],
+        
+        "pca_analysis": {
+            "enabled": true,
+            "n_components": 5
+        },
+        
+        "similarity_analysis": {
+            "enabled": true,
+            "max_samples": 8000 
+        },
+        
+        "sensitivity_analysis": {
+            "enabled": true,
+            "bootstrap_enabled": true,
+            "bootstrap_iterations": 100,
+            "confidence_level": 0.95,
+            "perturbation_enabled": true,
+            "noise_levels": [0.01, 0.05, 0.1, 0.2],
+            "feature_ablation_enabled": true,
+            "boundary_analysis_enabled": true,
+            "cv_stability_enabled": true,
+            "cv_splits": 10,
+            "threshold_robustness_enabled": true
+        },
+        
+        "model_settings": {
+            "max_depth_range": [2, 3, 4, 5, 6, 8, 10, 12, 15, 20],
+            "min_samples_leaf_range": [2, 3, 4, 5, 10, 20, 50, 75, 100],
+            "class_weight": "balanced",
+            "scoring_metric": "f1_macro"
+        },
+        
+        "rule_extraction": {
+            "enabled": true,
+            "max_display_depth": 8,
+            "extract_feature_ranges": true,
+            "save_rules_to_file": true
+        },
+        
+        "visualization": {
+            "enabled": true,
+            "plot_feature_importance": true,
+            "plot_confusion_matrix": true,
+            "plot_roc_curve": true,
+            "plot_pca": true,
+            "plot_pca_pass_fail": true,
+            "plot_pca_pass_fail_combined": true,
+            "plot_pca_all_subdomains": true,
+            "plot_pca_all_subdomains_pass_fail": true,
+            "plot_sensitivity": true,
+            "plot_similarity": true,
+            "figsize": [10, 8],
+            "dpi": 150
+        }
+    }
+}
