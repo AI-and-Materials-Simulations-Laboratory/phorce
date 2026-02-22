@@ -58,7 +58,7 @@ The pipeline is designed for environmental chemistry research, enabling research
 ```bash
 # Clone the repository
 git clone https://github.com/AI-and-Materials-Simulations-Laboratory/phorce.git
-cd phorce_github_ready
+cd phorce
 
 # Create conda environment
 conda env create -f environment.yml
@@ -304,7 +304,7 @@ data/
 ## Project Structure
 
 ```
-phorce_github_ready/
+phorce/
 ├── P1M.csv                           # Input: Raw PubChem data (1M compounds)
 ├── preprocessing_config.json         # Pipeline configuration
 ├── environment.yml                   # Conda environment specification
@@ -372,10 +372,10 @@ Apache 2.0 License - see [LICENSE](LICENSE) file for details.
 
 ## Authors
 
-Patrick B. Hogsed
-Brooke K. Mayer
-Yaroslava G. Yingling
-Eric McLamore
+- Patrick B. Hogsed
+- Brooke K. Mayer
+- Yaroslava G. Yingling
+- Eric McLamore
 
 ---
 
@@ -383,4 +383,5 @@ Eric McLamore
 
 - PubChem for providing chemical compound data
 - RDKit for chemical informatics functionality
+
 - scikit-learn for machine learning capabilities
