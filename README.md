@@ -23,7 +23,7 @@ PHORCE processes large chemical compound datasets (1M+ compounds) through a mult
 2. **Feature Engineering** - Create derived features from existing properties
 3. **Domain Labeling** - Classify compounds into environmental domains using keyword matching
 4. **Subset Creation** - Create physicochemical subsets based on property thresholds
-5. **Analysis** - Train decision trees and extract interpretable rules for each domain/subset
+5. **Analysis** - Train classifiers (XGBoost) and extract interpretable decision rules for each domain/subset
 
 The pipeline is designed for environmental chemistry research, enabling researchers to identify compounds relevant to soil science, aquatic toxicology, and agricultural applications.
 
@@ -40,7 +40,7 @@ The pipeline is designed for environmental chemistry research, enabling research
   - **Crop-related** - Agricultural and pesticide compounds
 - **Physicochemical Subsets** - Property-based classification:
   - Water Soluble, Aquatic Bioavailable, Bioconcentration Risk, Persistence, Soil Mobility
-- **Machine Learning Analysis** - Decision tree classifiers with cross-validation
+- **Machine Learning Analysis** - Gradient-boosted (XGBoost) and decision-tree classifiers with cross-validation
 - **Rule Extraction** - Human-readable decision rules from trained models
 - **Comprehensive Reporting** - JSON reports and visualizations at each step
 
@@ -50,7 +50,7 @@ The pipeline is designed for environmental chemistry research, enabling research
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - Conda (recommended) or pip
 
 ### Setup with Conda (Recommended)
@@ -75,7 +75,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install pandas numpy scikit-learn matplotlib seaborn
+pip install pandas numpy scipy scikit-learn xgboost matplotlib seaborn tqdm
 
 # Optional: Install RDKit for chemical validation
 pip install rdkit
@@ -201,7 +201,7 @@ Exploratory analysis of preprocessed data:
 - Box plots
 
 #### `analyze_domains.py`
-Decision tree analysis for each environmental domain:
+Classifier analysis (XGBoost) for each environmental domain:
 - GridSearchCV hyperparameter tuning
 - 5-fold cross-validation
 - Feature importance ranking
@@ -209,7 +209,7 @@ Decision tree analysis for each environmental domain:
 - ROC curves and confusion matrices
 
 #### `analyze_subdomains.py`
-Decision tree analysis for physicochemical subsets:
+Classifier analysis (XGBoost) for physicochemical subsets:
 - Same analysis as domains
 - Parent domain filtering (e.g., Water_Soluble within water_related)
 - Threshold validation against original criteria
@@ -295,8 +295,8 @@ data/
 │
 └── analysis/
     ├── processed/                    # Preprocessed data analysis
-    ├── domains/                      # Domain decision tree analysis
-    └── subdomains/                   # Subset decision tree analysis
+    ├── domains/                      # Domain classifier analysis
+    └── subdomains/                   # Subset classifier analysis
 ```
 
 ---

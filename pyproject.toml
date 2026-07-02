@@ -10,11 +10,11 @@ readme = "README.md"
 authors = [
     {name = "PHORCE Development Team"}
 ]
-license = {text = "MIT"}
+license = {text = "Apache-2.0"}
 classifiers = [
     "Development Status :: 4 - Alpha",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
@@ -37,8 +37,8 @@ dependencies = [
     "scipy>=1.10",
     "matplotlib>=3.8",
     "seaborn>=0.12",
-    "typer>=0.12.0",
-    "rich>=13.7",
+    "xgboost>=2.0",
+    "tqdm>=4.66",
 ]
 
 [project.optional-dependencies]
@@ -52,22 +52,17 @@ dev = [
 rdkit = [
     "rdkit>=2023.3",
 ]
-all = [
-    "phorce[dev,rdkit]",
-]
 
 [project.urls]
-Homepage = "https://github.com/your-org/phorce"
-Repository = "https://github.com/your-org/phorce"
+Homepage = "https://github.com/AI-and-Materials-Simulations-Laboratory/phorce"
+Repository = "https://github.com/AI-and-Materials-Simulations-Laboratory/phorce"
 
-[project.scripts]
-phorce = "phorce.cli.main:app"
-
+# NOTE: PHORCE is run as a set of standalone scripts under scripts/ (see README Quick Start);
+# it is not an importable package. `pip install .` therefore installs metadata + dependencies
+# only. `packages = []` prevents setuptools flat-layout auto-discovery from erroring on the
+# top-level docs/ and scripts/ directories.
 [tool.setuptools]
-packages = ["phorce", "phorce.core", "phorce.behaviors", "phorce.phases", "phorce.cli"]
-
-[tool.setuptools.package-data]
-phorce = ["py.typed"]
+packages = []
 
 [tool.black]
 line-length = 100
@@ -90,4 +85,4 @@ testpaths = ["tests"]
 python_files = "test_*.py"
 python_classes = "Test*"
 python_functions = "test_*"
-addopts = "-v --cov=phorce --cov-report=term-missing"
+addopts = "-v"
