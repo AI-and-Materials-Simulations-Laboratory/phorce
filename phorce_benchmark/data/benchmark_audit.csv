@@ -1,0 +1,289 @@
+compound,endpoint,value,meas_or_est,qc,source_file,format,page,line,raw_line
+acephate,WaterSolubility_mgL,790000.0,measured,,Acephate.pdf,zip,5.0,6,790000 High
+acephate,BCF_Lkg,0.03,measured,,Acephate.pdf,zip,7.0,45,BCF (l kg⁻¹) 0.03 Low potential
+acephate,Koc_Lkg,302.0,measured,,Acephate.pdf,zip,7.0,5,Koc (mL g⁻¹) 302
+acephate,LogKow,-0.85,measured,,Acephate.pdf,zip,5.0,22,Log P -0.85 Low
+bensulide,WaterSolubility_mgL,25.0,measured,,Bensulide_Ref__R_4461.pdf,zip,5.0,6,25 Moderate
+bensulide,BCF_Lkg,880.0,measured,,Bensulide_Ref__R_4461.pdf,zip,7.0,44,BCF (l kg⁻¹) 880 Whole fish Threshold for concern
+bensulide,Koc_Lkg,3900.0,measured,,Bensulide_Ref__R_4461.pdf,zip,7.0,5,Koc (mL g⁻¹) 3900
+bensulide,LogKow,4.2,measured,,Bensulide_Ref__R_4461.pdf,zip,5.0,21,Log P 4.2 High
+chlorpyrifos,WaterSolubility_mgL,1.05,measured,,Chlorpyrifos_Ref__OMS_971.pdf,zip,5.0,6,1.05 Low
+chlorpyrifos,BCF_Lkg,1374.0,measured,,Chlorpyrifos_Ref__OMS_971.pdf,zip,7.0,47,BCF (l kg⁻¹) 1374 (Other literature log
+chlorpyrifos,Koc_Lkg,5509.0,measured,,Chlorpyrifos_Ref__OMS_971.pdf,zip,7.0,6,Koc (mL g⁻¹) 5509
+chlorpyrifos,DT50_soil_d,386.0,measured,,Chlorpyrifos_Ref__OMS_971.pdf,zip,6.0,14,386 Very persistent
+chlorpyrifos,DT50_water_d,36.5,measured,,Chlorpyrifos_Ref__OMS_971.pdf,zip,6.0,61,Water-sediment DT₅₀ (days) 36.5 Moderately fast
+chlorpyrifos,LogKow,4.7,measured,,Chlorpyrifos_Ref__OMS_971.pdf,zip,5.0,22,Log P 4.7 High
+chlorpyrifos-methyl,WaterSolubility_mgL,2.74,measured,,Chlorpyrifosmethyl_Ref__OMS_1155.pdf,zip,5.0,6,2.74 Low
+chlorpyrifos-methyl,BCF_Lkg,1800.0,measured,,Chlorpyrifosmethyl_Ref__OMS_1155.pdf,zip,8.0,52,BCF (l kg⁻¹) 1800 Threshold for concern
+chlorpyrifos-methyl,Koc_Lkg,4645.0,measured,,Chlorpyrifosmethyl_Ref__OMS_1155.pdf,zip,8.0,6,Koc (mL g⁻¹) 4645
+chlorpyrifos-methyl,DT50_soil_d,2.77,measured,,Chlorpyrifosmethyl_Ref__OMS_1155.pdf,zip,7.0,13,2.77 Non-persistent
+chlorpyrifos-methyl,DT50_water_d,14.0,measured,,Chlorpyrifosmethyl_Ref__OMS_1155.pdf,zip,7.0,59,Water-sediment DT₅₀ (days) 14 Fast
+chlorpyrifos-methyl,LogKow,4.0,measured,,Chlorpyrifosmethyl_Ref__OMS_1155.pdf,zip,5.0,22,Log P 4.00 High
+demeton-S-methyl,WaterSolubility_mgL,22000.0,measured,,DemetonSmethyl.pdf,zip,5.0,6,22000 High
+demeton-S-methyl,BCF_Lkg,0.5,measured,,DemetonSmethyl.pdf,zip,7.0,44,BCF (l kg⁻¹) 0.5 Based on LogP < 3 Low potential
+demeton-S-methyl,Koc_Lkg,90.0,measured,,DemetonSmethyl.pdf,zip,7.0,5,Koc (mL g⁻¹) 90
+demeton-S-methyl,DT50_soil_d,2.7,measured,,DemetonSmethyl.pdf,zip,6.0,14,2.7 Non-persistent
+demeton-S-methyl,LogKow,1.32,measured,,DemetonSmethyl.pdf,zip,5.0,19,Log P 1.32 Low
+diazinon,WaterSolubility_mgL,60.0,measured,,Diazinon_Ref__OMS_469.pdf,zip,5.0,6,60 Moderate
+diazinon,BCF_Lkg,500.0,measured,,Diazinon_Ref__OMS_469.pdf,zip,7.0,55,BCF (l kg⁻¹) 500 (Other literature log
+diazinon,Koc_Lkg,609.0,measured,,Diazinon_Ref__OMS_469.pdf,zip,7.0,6,Koc (mL g⁻¹) 609
+diazinon,DT50_soil_d,9.1,measured,,Diazinon_Ref__OMS_469.pdf,zip,6.0,12,9.1 Non-persistent
+diazinon,DT50_water_d,10.4,measured,,Diazinon_Ref__OMS_469.pdf,zip,6.0,60,Water-sediment DT₅₀ (days) 10.4 Fast
+diazinon,LogKow,3.69,measured,,Diazinon_Ref__OMS_469.pdf,zip,5.0,22,Log P 3.69 High
+dichlorvos,WaterSolubility_mgL,18000.0,measured,,Dichlorvos_Ref__OMS_14.pdf,zip,5.0,6,18000 High
+dichlorvos,BCF_Lkg,3.0,measured,,Dichlorvos_Ref__OMS_14.pdf,zip,7.0,51,BCF (l kg⁻¹) Low risk Based on LogP < 3 Low risk
+dichlorvos,Koc_Lkg,50.0,measured,,Dichlorvos_Ref__OMS_14.pdf,zip,7.0,5,Koc (mL g⁻¹) 50
+dichlorvos,DT50_soil_d,2.0,measured,,Dichlorvos_Ref__OMS_14.pdf,zip,6.0,14,2 Non-persistent
+dichlorvos,DT50_water_d,0.22,measured,,Dichlorvos_Ref__OMS_14.pdf,zip,6.0,54,Water-sediment DT₅₀ (days) 0.22 Fast
+dichlorvos,LogKow,1.9,measured,,Dichlorvos_Ref__OMS_14.pdf,zip,5.0,22,Log P 1.9 Low
+dicrotophos,WaterSolubility_mgL,1000000.0,measured,,Dicrotophos_Ref__OMS_253.pdf,zip,5.0,6,1000000 at 25 °C High
+dicrotophos,BCF_Lkg,75.0,estimated,,Dicrotophos_Ref__OMS_253.pdf,zip,7.0,44,BCF (l kg⁻¹) 75 Estimated Low potential
+dicrotophos,Koc_Lkg,75.0,measured,,Dicrotophos_Ref__OMS_253.pdf,zip,7.0,5,Koc (mL g⁻¹) 75
+dicrotophos,LogKow,-0.5,measured,,Dicrotophos_Ref__OMS_253.pdf,zip,5.0,21,Log P -0.5 Low
+dimethoate,WaterSolubility_mgL,25900.0,measured,,Dimethoate_Ref__OMS_94.pdf,zip,5.0,6,25900 High
+dimethoate,BCF_Lkg,8.0,measured,,Dimethoate_Ref__OMS_94.pdf,zip,7.0,52,BCF (l kg⁻¹) 8 Whole body (Other
+dimethoate,DT50_soil_d,2.5,measured,,Dimethoate_Ref__OMS_94.pdf,zip,6.0,13,2.5 Non-persistent
+dimethoate,DT50_water_d,15.5,measured,,Dimethoate_Ref__OMS_94.pdf,zip,6.0,60,Water-sediment DT₅₀ (days) 15.5 Fast
+dimethoate,LogKow,0.75,measured,,Dimethoate_Ref__OMS_94.pdf,zip,5.0,22,Log P 0.75 Low
+disulfoton,WaterSolubility_mgL,25.0,measured,,Disulfoton_Ref__ENT_23347.pdf,zip,5.0,6,25 Moderate
+disulfoton,BCF_Lkg,460.0,measured,,Disulfoton_Ref__ENT_23347.pdf,zip,7.0,44,BCF (l kg⁻¹) 460 Whole fish Threshold for concern
+disulfoton,Koc_Lkg,1345.0,measured,,Disulfoton_Ref__ENT_23347.pdf,zip,7.0,5,Koc (mL g⁻¹) 1345
+disulfoton,DT50_soil_d,2.0,measured,,Disulfoton_Ref__ENT_23347.pdf,zip,6.0,14,2 Non-persistent
+disulfoton,DT50_water_d,15.0,measured,,Disulfoton_Ref__ENT_23347.pdf,zip,6.0,54,Water-sediment DT₅₀ (days) 15 Fast
+disulfoton,LogKow,3.95,measured,,Disulfoton_Ref__ENT_23347.pdf,zip,5.0,22,Log P 3.95 High
+EPN,WaterSolubility_mgL,0.5,measured,,EPN_Ref__OMS_219.pdf,zip,5.0,6,0.5 Low
+EPN,BCF_Lkg,2346.0,measured,,EPN_Ref__OMS_219.pdf,zip,7.0,44,BCF (l kg⁻¹) 2346 Threshold for concern
+EPN,Koc_Lkg,4000.0,measured,,EPN_Ref__OMS_219.pdf,zip,7.0,5,Koc (mL g⁻¹) 4000
+EPN,LogKow,5.02,measured,,EPN_Ref__OMS_219.pdf,zip,5.0,19,Log P 5.02 High
+ethoprophos,WaterSolubility_mgL,1300.0,measured,,Ethoprophos.pdf,zip,5.0,6,1300 High
+ethoprophos,BCF_Lkg,225.0,estimated,,Ethoprophos.pdf,zip,7.0,52,BCF (l kg⁻¹) 225 Estimated Threshold for concern
+ethoprophos,Koc_Lkg,70.0,measured,,Ethoprophos.pdf,zip,7.0,5,Koc (mL g⁻¹) 70.0
+ethoprophos,DT50_soil_d,13.6,measured,,Ethoprophos.pdf,zip,6.0,13,13.6 Non-persistent
+ethoprophos,DT50_water_d,83.0,measured,,Ethoprophos.pdf,zip,6.0,58,Water-sediment DT₅₀ (days) 83 Moderately fast
+ethoprophos,LogKow,2.99,measured,,Ethoprophos.pdf,zip,5.0,22,Log P 2.99 Moderate
+fenitrothion,WaterSolubility_mgL,19.0,measured,,Fenitrothion_Ref__OMS_43.pdf,zip,5.0,6,19 Moderate
+fenitrothion,BCF_Lkg,29.0,measured,,Fenitrothion_Ref__OMS_43.pdf,zip,7.0,45,BCF (l kg⁻¹) 29 (Other literature values
+fenitrothion,Koc_Lkg,2000.0,measured,,Fenitrothion_Ref__OMS_43.pdf,zip,7.0,5,Koc (mL g⁻¹) 2000
+fenitrothion,DT50_soil_d,2.7,measured,,Fenitrothion_Ref__OMS_43.pdf,zip,6.0,12,2.7 Non-persistent
+fenitrothion,DT50_water_d,1.57,measured,,Fenitrothion_Ref__OMS_43.pdf,zip,6.0,56,Water-sediment DT₅₀ (days) 1.57 Fast
+fenitrothion,LogKow,3.32,measured,,Fenitrothion_Ref__OMS_43.pdf,zip,5.0,22,Log P 3.32 High
+glyphosate,WaterSolubility_mgL,100000.0,measured,,Glyphosate_Ref__MON_0573.pdf,zip,5.0,6,100000 High
+glyphosate,BCF_Lkg,0.5,measured,,Glyphosate_Ref__MON_0573.pdf,zip,7.0,52,BCF (l kg⁻¹) 0.5 Whole fish Low potential
+glyphosate,Koc_Lkg,1424.0,measured,,Glyphosate_Ref__MON_0573.pdf,zip,7.0,5,Koc (mL g⁻¹) 1424
+glyphosate,DT50_soil_d,17.3,measured,,Glyphosate_Ref__MON_0573.pdf,zip,6.0,13,17.3 Non-persistent
+glyphosate,DT50_water_d,20.8,measured,,Glyphosate_Ref__MON_0573.pdf,zip,6.0,56,Water-sediment DT₅₀ (days) 20.8 Fast
+glyphosate,LogKow,-6.28,measured,,Glyphosate_Ref__MON_0573.pdf,zip,5.0,22,Log P -6.28 at 25 °C Low
+malathion,WaterSolubility_mgL,148.0,measured,,Malathion_Ref__OMS_1.pdf,zip,5.0,6,148 Moderate
+malathion,BCF_Lkg,103.0,measured,,Malathion_Ref__OMS_1.pdf,zip,7.0,53,BCF (l kg⁻¹) 103 (Other literature Log
+malathion,Koc_Lkg,1800.0,measured,,Malathion_Ref__OMS_1.pdf,zip,7.0,6,Koc (mL g⁻¹) 1800
+malathion,DT50_soil_d,0.17,measured,,Malathion_Ref__OMS_1.pdf,zip,6.0,12,0.17 Non-persistent
+malathion,DT50_water_d,0.4,measured,,Malathion_Ref__OMS_1.pdf,zip,6.0,57,Water-sediment DT₅₀ (days) 0.4 Fast
+malathion,LogKow,2.75,measured,,Malathion_Ref__OMS_1.pdf,zip,5.0,22,Log P 2.75 at 25 °C Moderate
+mecarbam,WaterSolubility_mgL,1000.0,measured,,Mecarbam_Ref__MC_474.pdf,zip,5.0,6,1000 Moderate
+mecarbam,BCF_Lkg,75.0,estimated,,Mecarbam_Ref__MC_474.pdf,zip,7.0,44,BCF (l kg⁻¹) 75 Estimated Low potential
+mecarbam,Koc_Lkg,160.0,measured,,Mecarbam_Ref__MC_474.pdf,zip,7.0,5,Koc (mL g⁻¹) 160
+mecarbam,LogKow,2.29,measured,,Mecarbam_Ref__MC_474.pdf,zip,5.0,19,Log P 2.29 Low
+methamidophos,WaterSolubility_mgL,200000.0,measured,,Methamidophos_Ref__ENT_27396.pdf,zip,5.0,6,200000 High
+methamidophos,BCF_Lkg,75.0,estimated,,Methamidophos_Ref__ENT_27396.pdf,zip,7.0,44,BCF (l kg⁻¹) 75 Estimated Low potential
+methamidophos,Koc_Lkg,1.0,measured,,Methamidophos_Ref__ENT_27396.pdf,zip,7.0,5,Koc (mL g⁻¹) 1.0
+methamidophos,DT50_soil_d,4.0,measured,,Methamidophos_Ref__ENT_27396.pdf,zip,6.0,14,4 Non-persistent
+methamidophos,DT50_water_d,23.5,measured,,Methamidophos_Ref__ENT_27396.pdf,zip,6.0,56,Water-sediment DT₅₀ (days) 23.5 Fast
+methamidophos,LogKow,-0.79,measured,,Methamidophos_Ref__ENT_27396.pdf,zip,5.0,22,Log P -0.79 Low
+methidathion,WaterSolubility_mgL,240.0,measured,,Methidathion_Ref__ENT_27193_.pdf,zip,5.0,6,240 Moderate
+methidathion,BCF_Lkg,12.6,measured,,Methidathion_Ref__ENT_27193_.pdf,zip,7.0,44,BCF (l kg⁻¹) 12.6 Low potential
+methidathion,Koc_Lkg,400.0,measured,,Methidathion_Ref__ENT_27193_.pdf,zip,7.0,5,Koc (mL g⁻¹) 400
+methidathion,DT50_soil_d,10.0,measured,,Methidathion_Ref__ENT_27193_.pdf,zip,6.0,14,10 Non-persistent
+methidathion,DT50_water_d,70.0,measured,,Methidathion_Ref__ENT_27193_.pdf,zip,6.0,56,Water-sediment DT₅₀ (days) 70 Moderately fast
+methidathion,LogKow,2.57,measured,,Methidathion_Ref__ENT_27193_.pdf,zip,5.0,22,Log P 2.57 Low
+mevinphos,WaterSolubility_mgL,600000.0,measured,,Mevinphos_Ref__ENT_22374.pdf,zip,5.0,6,600000 High
+mevinphos,BCF_Lkg,3.0,measured,,Mevinphos_Ref__ENT_22374.pdf,zip,7.0,44,BCF (l kg⁻¹) Low risk Based on LogP < 3 Low risk
+mevinphos,Koc_Lkg,44.0,measured,,Mevinphos_Ref__ENT_22374.pdf,zip,7.0,5,Koc (mL g⁻¹) 44
+mevinphos,DT50_soil_d,3.0,measured,,Mevinphos_Ref__ENT_22374.pdf,zip,6.0,14,3 Non-persistent
+mevinphos,DT50_water_d,21.0,measured,,Mevinphos_Ref__ENT_22374.pdf,zip,6.0,56,Water-sediment DT₅₀ (days) 21 Fast
+mevinphos,LogKow,0.127,measured,,Mevinphos_Ref__ENT_22374.pdf,zip,5.0,19,Log P 0.127 Low
+monocrotophos,WaterSolubility_mgL,818000.0,measured,,Monocrotophos_Ref__ENT_27129.pdf,zip,6.0,6,818000 High
+monocrotophos,BCF_Lkg,3.0,measured,,Monocrotophos_Ref__ENT_27129.pdf,zip,8.0,44,BCF (l kg⁻¹) Low risk Based on LogP < 3 Low risk
+monocrotophos,Koc_Lkg,19.0,measured,,Monocrotophos_Ref__ENT_27129.pdf,zip,8.0,5,Koc (mL g⁻¹) 19
+monocrotophos,LogKow,-0.22,measured,,Monocrotophos_Ref__ENT_27129.pdf,zip,6.0,22,Log P -0.22 Low
+naled,WaterSolubility_mgL,2000.0,measured,,Naled_Ref__OMS_75.pdf,zip,5.0,6,2000 High
+naled,BCF_Lkg,598.0,estimated,,Naled_Ref__OMS_75.pdf,zip,7.0,44,BCF (l kg⁻¹) 598 Estimated Threshold for concern
+naled,Koc_Lkg,180.0,measured,,Naled_Ref__OMS_75.pdf,zip,7.0,5,Koc (mL g⁻¹) 180
+naled,LogKow,2.18,measured,,Naled_Ref__OMS_75.pdf,zip,5.0,19,Log P 2.18 Low
+oxydemeton-methyl,WaterSolubility_mgL,1200000.0,measured,,Oxydemetonmethyl_Ref__ENT_24964.pdf,zip,5.0,6,1200000 High
+oxydemeton-methyl,BCF_Lkg,3.0,measured,,Oxydemetonmethyl_Ref__ENT_24964.pdf,zip,7.0,51,BCF (l kg⁻¹) Low risk Based on LogP < 3 Low risk
+oxydemeton-methyl,Koc_Lkg,10.0,measured,,Oxydemetonmethyl_Ref__ENT_24964.pdf,zip,7.0,5,Koc (mL g⁻¹) 10
+oxydemeton-methyl,DT50_soil_d,1.0,measured,,Oxydemetonmethyl_Ref__ENT_24964.pdf,zip,6.0,12,1 Non-persistent
+oxydemeton-methyl,DT50_water_d,3.0,measured,,Oxydemetonmethyl_Ref__ENT_24964.pdf,zip,6.0,57,Water-sediment DT₅₀ (days) 3 Fast
+oxydemeton-methyl,LogKow,-0.74,measured,,Oxydemetonmethyl_Ref__ENT_24964.pdf,zip,5.0,22,Log P -0.74 Low
+parathion,WaterSolubility_mgL,12.4,measured,,Parathion_Ref__OMS_19.pdf,zip,5.0,6,12.4 Moderate
+parathion,BCF_Lkg,40.0,measured,,Parathion_Ref__OMS_19.pdf,zip,7.0,45,BCF (l kg⁻¹) 40 (Other literature values
+parathion,Koc_Lkg,7660.0,measured,,Parathion_Ref__OMS_19.pdf,zip,7.0,5,Koc (mL g⁻¹) 7660
+parathion,DT50_soil_d,14.0,measured,,Parathion_Ref__OMS_19.pdf,zip,6.0,14,14 Non-persistent
+parathion,DT50_water_d,4.3,measured,,Parathion_Ref__OMS_19.pdf,zip,6.0,57,Water-sediment DT₅₀ (days) 4.3 Fast
+parathion,LogKow,3.83,measured,,Parathion_Ref__OMS_19.pdf,zip,5.0,22,Log P 3.83 High
+methyl parathion,WaterSolubility_mgL,55.0,measured,,Parathionmethyl_Ref__OMS_213.pdf,zip,5.0,6,55 Moderate
+methyl parathion,BCF_Lkg,71.0,measured,,Parathionmethyl_Ref__OMS_213.pdf,zip,7.0,45,BCF (l kg⁻¹) 71 Oncorhynchus mykiss Low potential
+methyl parathion,Koc_Lkg,240.0,measured,,Parathionmethyl_Ref__OMS_213.pdf,zip,7.0,5,Koc (mL g⁻¹) 240
+methyl parathion,DT50_soil_d,12.0,measured,,Parathionmethyl_Ref__OMS_213.pdf,zip,6.0,14,12 Non-persistent
+methyl parathion,DT50_water_d,5.0,measured,,Parathionmethyl_Ref__OMS_213.pdf,zip,6.0,55,Water-sediment DT₅₀ (days) 5 Fast
+methyl parathion,LogKow,3.0,measured,,Parathionmethyl_Ref__OMS_213.pdf,zip,5.0,21,Log P 3 Moderate
+phorate,WaterSolubility_mgL,50.0,measured,,Phorate_Ref__ENT_24042.pdf,zip,5.0,6,50 Moderate
+phorate,BCF_Lkg,483.0,measured,,Phorate_Ref__ENT_24042.pdf,zip,7.0,44,BCF (l kg⁻¹) 483 (Whole fish Other
+phorate,Koc_Lkg,1660.0,measured,,Phorate_Ref__ENT_24042.pdf,zip,7.0,5,Koc (mL g⁻¹) 1660
+phorate,DT50_soil_d,40.0,measured,,Phorate_Ref__ENT_24042.pdf,zip,6.0,12,40 Moderately persistent
+phorate,LogKow,3.86,measured,,Phorate_Ref__ENT_24042.pdf,zip,5.0,21,Log P 3.86 High
+phosalone,WaterSolubility_mgL,1.4,measured,,Phosalone_Ref__ENT_27163.pdf,zip,5.0,6,1.4 Low
+phosalone,BCF_Lkg,180.0,measured,,Phosalone_Ref__ENT_27163.pdf,zip,7.0,51,BCF (l kg⁻¹) 180 Whole fish Threshold for concern
+phosalone,Koc_Lkg,2063.0,measured,,Phosalone_Ref__ENT_27163.pdf,zip,7.0,5,Koc (mL g⁻¹) 2063
+phosalone,DT50_soil_d,2.0,measured,,Phosalone_Ref__ENT_27163.pdf,zip,6.0,12,2 Non-persistent
+phosalone,DT50_water_d,4.0,measured,,Phosalone_Ref__ENT_27163.pdf,zip,6.0,54,Water-sediment DT₅₀ (days) 4 Fast
+phosalone,LogKow,4.01,measured,,Phosalone_Ref__ENT_27163.pdf,zip,5.0,22,Log P 4.01 High
+phosmet,WaterSolubility_mgL,15.2,measured,,Phosmet_Ref__OMS_232.pdf,zip,5.0,6,15.2 Moderate
+phosmet,BCF_Lkg,79.0,measured,,Phosmet_Ref__OMS_232.pdf,zip,7.0,52,BCF (l kg⁻¹) 79 Based on LogP < 3 Low
+phosmet,Koc_Lkg,3534.0,measured,,Phosmet_Ref__OMS_232.pdf,zip,7.0,5,Koc (mL g⁻¹) 3534
+phosmet,DT50_soil_d,3.2,measured,,Phosmet_Ref__OMS_232.pdf,zip,6.0,13,3.2 Non-persistent
+phosmet,DT50_water_d,7.0,measured,,Phosmet_Ref__OMS_232.pdf,zip,6.0,55,Water-sediment DT₅₀ (days) 7 Fast
+phosmet,LogKow,2.8,measured,,Phosmet_Ref__OMS_232.pdf,zip,5.0,22,Log P 2.8 Moderate
+phosphamidon,WaterSolubility_mgL,1000000.0,measured,,Phosphamidon_Ref__OMS_1325.pdf,zip,5.0,6,1000000 High
+phosphamidon,BCF_Lkg,75.0,estimated,,Phosphamidon_Ref__OMS_1325.pdf,zip,7.0,44,BCF (l kg⁻¹) 75 Estimated Low potential
+phosphamidon,Koc_Lkg,33.0,measured,,Phosphamidon_Ref__OMS_1325.pdf,zip,7.0,5,Koc (mL g⁻¹) 33
+phosphamidon,DT50_soil_d,9.0,measured,,Phosphamidon_Ref__OMS_1325.pdf,zip,6.0,14,9 Non-persistent
+phosphamidon,DT50_water_d,13.0,measured,,Phosphamidon_Ref__OMS_1325.pdf,zip,6.0,54,Water-sediment DT₅₀ (days) 13 Fast
+phosphamidon,LogKow,0.795,measured,,Phosphamidon_Ref__OMS_1325.pdf,zip,5.0,21,Log P 0.795 Low
+terbufos,WaterSolubility_mgL,4.5,measured,,Terbufos_Ref__AC_92100.pdf,zip,5.0,6,4.5 Low
+terbufos,BCF_Lkg,286.0,measured,,Terbufos_Ref__AC_92100.pdf,zip,7.0,44,BCF (l kg⁻¹) 286 Threshold for concern
+terbufos,Koc_Lkg,500.0,measured,,Terbufos_Ref__AC_92100.pdf,zip,7.0,5,Koc (mL g⁻¹) 500
+terbufos,DT50_soil_d,5.0,measured,,Terbufos_Ref__AC_92100.pdf,zip,6.0,14,5 Non-persistent
+terbufos,LogKow,4.51,measured,,Terbufos_Ref__AC_92100.pdf,zip,5.0,19,Log P 4.51 High
+tetrachlorvinphos,WaterSolubility_mgL,11.6,measured,,Tetrachlorvinphos_Ref__SD_8447.pdf,zip,5.0,6,11.6 Moderate
+tetrachlorvinphos,Koc_Lkg,900.0,measured,,Tetrachlorvinphos_Ref__SD_8447.pdf,zip,7.0,5,Koc (mL g⁻¹) 900
+tetrachlorvinphos,LogKow,3.53,measured,,Tetrachlorvinphos_Ref__SD_8447.pdf,zip,5.0,19,Log P 3.53 High
+tribufos,WaterSolubility_mgL,2.3,measured,,Tribufos.pdf,zip,5.0,6,2.3 Low
+tribufos,BCF_Lkg,3050.0,measured,,Tribufos.pdf,zip,7.0,44,BCF (l kg⁻¹) 3050 Threshold for concern
+tribufos,Koc_Lkg,7700.0,measured,,Tribufos.pdf,zip,7.0,5,Koc (mL g⁻¹) 7700
+tribufos,DT50_soil_d,10.0,measured,,Tribufos.pdf,zip,6.0,12,10 Non-persistent
+tribufos,LogKow,5.52,measured,,Tribufos.pdf,zip,5.0,19,Log P 5.52 High
+trichlorfon,WaterSolubility_mgL,120000.0,measured,,Trichlorfon_Ref__OMS_800.pdf,zip,5.0,6,120000 High
+trichlorfon,BCF_Lkg,0.41,measured,,Trichlorfon_Ref__OMS_800.pdf,zip,7.0,50,BCF (l kg⁻¹) 0.41 Piaractus
+trichlorfon,Koc_Lkg,10.0,measured,,Trichlorfon_Ref__OMS_800.pdf,zip,7.0,5,Koc (mL g⁻¹) 10
+trichlorfon,DT50_soil_d,18.0,measured,,Trichlorfon_Ref__OMS_800.pdf,zip,6.0,12,18 Non-persistent
+trichlorfon,LogKow,0.43,measured,,Trichlorfon_Ref__OMS_800.pdf,zip,5.0,22,Log P 0.43 Low
+azinphos-ethyl,WaterSolubility_mgL,4.5,measured,L3,Azinphosethyl_Ref__BAY_16259.pdf,pdf,,169,Solubility - In water at 20 °C at     4.5                          L3                       Low
+azinphos-ethyl,BCF_Lkg,101.0,estimated,Q2,Azinphosethyl_Ref__BAY_16259.pdf,pdf,,300,Bio-              BCF (l kg⁻¹)     101                         Q2 Estimated             Threshold for concern
+azinphos-ethyl,Koc_Lkg,1500.0,measured,,Azinphosethyl_Ref__BAY_16259.pdf,pdf,,264,Koc (mL g⁻¹)     1500
+azinphos-ethyl,LogKow,3.18,measured,L3,Azinphosethyl_Ref__BAY_16259.pdf,pdf,,182,coefficient at       Log P            3.18                         L3                       High
+azinphos-methyl,WaterSolubility_mgL,28.0,measured,H4,Azinphosmethyl.pdf,pdf,,166,Solubility - In water at 20 °C at     28                           H4                       Moderate
+azinphos-methyl,BCF_Lkg,40.0,measured,P4,Azinphosmethyl.pdf,pdf,,295,Bio-              BCF (l kg⁻¹)     40                          P4                           Low potential
+azinphos-methyl,Koc_Lkg,1112.0,measured,,Azinphosmethyl.pdf,pdf,,259,Koc (mL g⁻¹)     1112
+azinphos-methyl,DT50_soil_d,31.0,measured,A3,Azinphosmethyl.pdf,pdf,,212,DT₅₀ (lab at 20     31                            A3                            Moderately persistent
+azinphos-methyl,LogKow,2.96,measured,H4,Azinphosmethyl.pdf,pdf,,179,coefficient at       Log P            2.96                         H4                       Moderate
+cadusafos,WaterSolubility_mgL,245.0,measured,A5,Cadusafos_Ref__FMC_67825.pdf,pdf,,166,Solubility - In water at 20 °C at     245                         A5 at 25 °C              Moderate
+cadusafos,BCF_Lkg,220.0,measured,A5,Cadusafos_Ref__FMC_67825.pdf,pdf,,298,Bio-              BCF (l kg⁻¹)     220                         A5 Whole fish                 Threshold for concern
+cadusafos,DT50_soil_d,56.7,measured,A5,Cadusafos_Ref__FMC_67825.pdf,pdf,,213,DT₅₀ (lab at 20     56.7                            A5                          Moderately persistent
+cadusafos,DT50_water_d,215.0,measured,A5,Cadusafos_Ref__FMC_67825.pdf,pdf,,245,Water-sediment DT₅₀ (days)          215                             A5                          Slow
+cadusafos,LogKow,3.85,measured,A5,Cadusafos_Ref__FMC_67825.pdf,pdf,,179,coefficient at       Log P            3.85                        A5                       High
+chlorfenvinphos,WaterSolubility_mgL,145.0,measured,B5,Chlorfenvinphos_Ref__OMS_166.pdf,pdf,,169,Solubility - In water at 20 °C at     145                          B5                       Moderate
+chlorfenvinphos,BCF_Lkg,250.0,measured,R3,Chlorfenvinphos_Ref__OMS_166.pdf,pdf,,298,Bio-              BCF (l kg⁻¹)     250                          R3                       Threshold for concern
+chlorfenvinphos,Koc_Lkg,680.0,measured,,Chlorfenvinphos_Ref__OMS_166.pdf,pdf,,262,Koc (mL g⁻¹)     680
+chlorfenvinphos,DT50_soil_d,37.0,measured,B4,Chlorfenvinphos_Ref__OMS_166.pdf,pdf,,214,DT₅₀ (lab at 20     37                           B4                            Moderately persistent
+chlorfenvinphos,LogKow,3.8,measured,B5,Chlorfenvinphos_Ref__OMS_166.pdf,pdf,,182,coefficient at       Log P            3.8                          B5                       High
+dialifos,WaterSolubility_mgL,0.18,measured,V4,Dialifos_Ref__AC_14503.pdf,pdf,,171,Solubility - In water at 20 °C at     0.18     V4                       Low
+edifenphos,WaterSolubility_mgL,56.0,measured,L3,Edifenphos_Ref__BAY_78418.pdf,pdf,,152,Solubility - In water at 20 °C at     56            L3                       Moderate
+edifenphos,Koc_Lkg,1863.0,measured,,Edifenphos_Ref__BAY_78418.pdf,pdf,,241,Koc (mL g⁻¹)     1863
+edifenphos,LogKow,3.83,measured,L3,Edifenphos_Ref__BAY_78418.pdf,pdf,,165,coefficient at       Log P            3.83          L3                       High
+fonofos,WaterSolubility_mgL,13.0,measured,K4,Fonofos_Ref__N2790.pdf,pdf,,168,Solubility - In water at 20 °C at     13               K4                       Moderate
+fonofos,BCF_Lkg,300.0,estimated,Q2,Fonofos_Ref__N2790.pdf,pdf,,297,Bio-              BCF (l kg⁻¹)     300               Q2 Estimated             Threshold for concern
+fonofos,Koc_Lkg,870.0,measured,,Fonofos_Ref__N2790.pdf,pdf,,261,Koc (mL g⁻¹)     870
+fonofos,DT50_soil_d,99.0,measured,K4,Fonofos_Ref__N2790.pdf,pdf,,214,DT₅₀ (lab at 20   99                           K4                            Moderately persistent
+fonofos,LogKow,3.9,measured,G4,Fonofos_Ref__N2790.pdf,pdf,,181,coefficient at       Log P            3.9              G4                       High
+formothion,WaterSolubility_mgL,2600.0,measured,K4,Formothion_Ref__SAN_6913I.pdf,pdf,,160,Solubility - In water at 20 °C at     2600          K4                       High
+formothion,BCF_Lkg,0.07,estimated,Q2,Formothion_Ref__SAN_6913I.pdf,pdf,,289,Bio-              BCF (l kg⁻¹)     0.07                       Q2 Estimated             Low potential
+formothion,Koc_Lkg,21.0,measured,,Formothion_Ref__SAN_6913I.pdf,pdf,,253,Koc (mL g⁻¹)     21
+formothion,LogKow,1.48,measured,G4,Formothion_Ref__SAN_6913I.pdf,pdf,,173,coefficient at       Log P            1.48          G4                       Low
+fosetyl,BCF_Lkg,3.0,measured,,Fosetyl.pdf,pdf,,279,Bio-              BCF (l kg⁻¹)     Low risk                   Q3 Based on LogP < 3     Low risk
+fosetyl,DT50_soil_d,0.1,measured,A5,Fosetyl.pdf,pdf,,198,DT₅₀ (lab at 20   0.1                          A5                            Non-persistent
+fosetyl,LogKow,-0.7,measured,V3,Fosetyl.pdf,pdf,,167,coefficient at                        -0.70              V3                       Low
+fosthiazate,WaterSolubility_mgL,9000.0,measured,A5,Fosthiazate_Ref__IKI_1145.pdf,pdf,,164,Solubility - In water at 20 °C at     9000                   A5                       High
+fosthiazate,BCF_Lkg,3.2,measured,F4,Fosthiazate_Ref__IKI_1145.pdf,pdf,,299,Bio-              BCF (l kg⁻¹)     3.2                          F4 Whole fish                Low potential
+fosthiazate,Koc_Lkg,239.0,measured,,Fosthiazate_Ref__IKI_1145.pdf,pdf,,258,Koc (mL g⁻¹)     239
+fosthiazate,DT50_soil_d,26.8,measured,A5,Fosthiazate_Ref__IKI_1145.pdf,pdf,,210,DT₅₀ (lab at 20   26.8                         A5                            Non-persistent
+fosthiazate,DT50_water_d,51.0,measured,A4,Fosthiazate_Ref__IKI_1145.pdf,pdf,,243,Water-sediment DT₅₀ (days)          51                           A4                            Moderately fast
+fosthiazate,LogKow,1.68,measured,A5,Fosthiazate_Ref__IKI_1145.pdf,pdf,,177,coefficient at       Log P            1.68                   A5 at 25 °C              Low
+glufosinate,BCF_Lkg,3.0,measured,,Glufosinate_Ref__HOE_00661.pdf,pdf,,293,Bio-              BCF (l kg⁻¹)     Low risk               Q3 Based on LogP < 3     Low risk
+glufosinate,DT50_soil_d,7.4,measured,A5,Glufosinate_Ref__HOE_00661.pdf,pdf,,211,DT₅₀ (lab at 20   7.4                          A5                            Non-persistent
+glufosinate,LogKow,-3.96,measured,V3,Glufosinate_Ref__HOE_00661.pdf,pdf,,180,coefficient at                        -3.96                       V3                       Low
+heptenophos,WaterSolubility_mgL,2200.0,measured,L3,Heptenophos_Ref__OMS_1845.pdf,pdf,,164,Solubility - In water at 20 °C at     2200             L3                       High
+heptenophos,BCF_Lkg,3.0,measured,,Heptenophos_Ref__OMS_1845.pdf,pdf,,293,Bio-              BCF (l kg⁻¹)     Low risk            Q3 Based on LogP < 3     Low risk
+heptenophos,Koc_Lkg,163.0,measured,,Heptenophos_Ref__OMS_1845.pdf,pdf,,257,Koc (mL g⁻¹)     163
+heptenophos,DT50_water_d,7.0,measured,K4,Heptenophos_Ref__OMS_1845.pdf,pdf,,242,Water-sediment DT₅₀ (days)          7                            K4                            Fast
+heptenophos,LogKow,2.32,measured,L3,Heptenophos_Ref__OMS_1845.pdf,pdf,,177,coefficient at       Log P            2.32             L3                       Low
+iprobenfos,WaterSolubility_mgL,540.0,measured,L3,Iprobenfos.pdf,pdf,,149,Solubility - In water at 20 °C at     540           L3                       Moderate
+iprobenfos,Koc_Lkg,5030.0,measured,,Iprobenfos.pdf,pdf,,241,Koc (mL g⁻¹)     5030
+iprobenfos,LogKow,3.37,measured,L3,Iprobenfos.pdf,pdf,,162,coefficient at       Log P            3.37          L3                       High
+isofenphos,WaterSolubility_mgL,24.0,measured,G4,Isofenphos_Ref__BAY_SRA_12869.pdf,pdf,,161,Solubility - In water at 20 °C at     24            G4                       Moderate
+isofenphos,BCF_Lkg,240.0,measured,P4,Isofenphos_Ref__BAY_SRA_12869.pdf,pdf,,290,Bio-              BCF (l kg⁻¹)     240                   P4                       Threshold for concern
+isofenphos,Koc_Lkg,600.0,measured,,Isofenphos_Ref__BAY_SRA_12869.pdf,pdf,,254,Koc (mL g⁻¹)     600
+isofenphos,LogKow,4.04,measured,L3,Isofenphos_Ref__BAY_SRA_12869.pdf,pdf,,173,coefficient at                        4.04          L3                       High
+omethoate,WaterSolubility_mgL,500000.0,measured,A5,Omethoate_Ref__ENT_25776.pdf,pdf,,166,Solubility - In water at 20 °C at     500000           A5                       High
+omethoate,BCF_Lkg,75.0,estimated,Q2,Omethoate_Ref__ENT_25776.pdf,pdf,,301,Bio-              BCF (l kg⁻¹)     75                          Q2 Estimated                Low potential
+omethoate,Koc_Lkg,41.3,measured,,Omethoate_Ref__ENT_25776.pdf,pdf,,262,Koc (mL g⁻¹)     41.3
+omethoate,DT50_soil_d,0.1,measured,A5,Omethoate_Ref__ENT_25776.pdf,pdf,,215,DT₅₀ (lab at 20   0.1                          A5                            Non-persistent
+omethoate,DT50_water_d,4.5,measured,K4,Omethoate_Ref__ENT_25776.pdf,pdf,,247,Water-sediment DT₅₀ (days)          4.5                          K4                            Fast
+omethoate,LogKow,-0.9,measured,A5,Omethoate_Ref__ENT_25776.pdf,pdf,,177,coefficient at                        -0.9             A5                       Low
+pirimiphos-ethyl,WaterSolubility_mgL,93.0,measured,DW4,Pirimiphosethyl_Ref__PP211.pdf,pdf,,157,Solubility - In water at 20 °C at     93.0          DW4                      Moderate
+pirimiphos-ethyl,BCF_Lkg,3000.0,estimated,Q2,Pirimiphosethyl_Ref__PP211.pdf,pdf,,284,Bio-              BCF (l kg⁻¹)     3000                Q2 Estimated             Threshold for concern
+pirimiphos-ethyl,Koc_Lkg,300.0,measured,,Pirimiphosethyl_Ref__PP211.pdf,pdf,,248,Koc (mL g⁻¹)     300
+pirimiphos-ethyl,LogKow,4.85,measured,P3,Pirimiphosethyl_Ref__PP211.pdf,pdf,,167,coefficient at                        4.85          P3                       High
+pirimiphos-methyl,WaterSolubility_mgL,11.0,measured,A5,Pirimiphosmethyl_Ref__OMS_1424.pdf,pdf,,163,Solubility - In water at 20 °C at     11                           A5                       Moderate
+pirimiphos-methyl,BCF_Lkg,741.0,estimated,Q2,Pirimiphosmethyl_Ref__OMS_1424.pdf,pdf,,299,Bio-              BCF (l kg⁻¹)     741               Q2 Estimated             Threshold for concern
+pirimiphos-methyl,Koc_Lkg,1100.0,measured,,Pirimiphosmethyl_Ref__OMS_1424.pdf,pdf,,263,Koc (mL g⁻¹)     1100
+pirimiphos-methyl,DT50_soil_d,12.0,measured,B4,Pirimiphosmethyl_Ref__OMS_1424.pdf,pdf,,212,DT₅₀ (lab at 20     12                           B4                            Non-persistent
+pirimiphos-methyl,LogKow,4.2,measured,A5,Pirimiphosmethyl_Ref__OMS_1424.pdf,pdf,,176,coefficient at       Log P            4.2                          A5                       High
+profenofos,WaterSolubility_mgL,28.0,measured,H4,Profenofos_Ref__OMS_2004.pdf,pdf,,163,Solubility - In water at 20 °C at     28                           H4                       Moderate
+profenofos,BCF_Lkg,1186.0,estimated,Q2,Profenofos_Ref__OMS_2004.pdf,pdf,,296,Bio-              BCF (l kg⁻¹)     1186                  Q2 Estimated             Threshold for concern
+profenofos,Koc_Lkg,2016.0,measured,,Profenofos_Ref__OMS_2004.pdf,pdf,,260,Koc (mL g⁻¹)     2016
+profenofos,DT50_soil_d,7.0,measured,L3,Profenofos_Ref__OMS_2004.pdf,pdf,,211,DT₅₀ (lab at 20   7                             L3                            Non-persistent
+profenofos,LogKow,1.7,measured,H4,Profenofos_Ref__OMS_2004.pdf,pdf,,175,coefficient at                        1.7                          H4                       Low
+propetamphos,WaterSolubility_mgL,110.0,measured,G4,Propetamphos_Ref__OMS_1502.pdf,pdf,,161,Solubility - In water at 20 °C at     110              G4 at 24 °C              Moderate
+propetamphos,BCF_Lkg,352.0,estimated,Q2,Propetamphos_Ref__OMS_1502.pdf,pdf,,290,Bio-              BCF (l kg⁻¹)     352                   Q2 Estimated             Threshold for concern
+propetamphos,Koc_Lkg,330.0,measured,,Propetamphos_Ref__OMS_1502.pdf,pdf,,254,Koc (mL g⁻¹)     330
+propetamphos,DT50_soil_d,30.0,measured,F3,Propetamphos_Ref__OMS_1502.pdf,pdf,,207,DT₅₀ (lab at 20   30                            F3                            Moderately persistent
+propetamphos,LogKow,3.82,measured,L3,Propetamphos_Ref__OMS_1502.pdf,pdf,,174,coefficient at       Log P            3.82             L3                       High
+prothiofos,WaterSolubility_mgL,0.07,measured,L3,Prothiofos_Ref__OMS_2006.pdf,pdf,,156,Solubility - In water at 20 °C at     0.07          L3                       Low
+prothiofos,Koc_Lkg,24158.0,measured,,Prothiofos_Ref__OMS_2006.pdf,pdf,,249,Koc (mL g⁻¹)     24158
+prothiofos,LogKow,5.67,measured,L3,Prothiofos_Ref__OMS_2006.pdf,pdf,,168,coefficient at                        5.67          L3                       High
+pyrazophos,WaterSolubility_mgL,4.2,measured,K4,Pyrazophos_Ref__HOE_2873.pdf,pdf,,152,Solubility - In water at 20 °C at     4.2                          K4                       Low
+pyrazophos,BCF_Lkg,360.0,measured,P4,Pyrazophos_Ref__HOE_2873.pdf,pdf,,284,Bio-              BCF (l kg⁻¹)     360               P4                       Threshold for concern
+pyrazophos,Koc_Lkg,646.0,measured,,Pyrazophos_Ref__HOE_2873.pdf,pdf,,248,Koc (mL g⁻¹)     646
+pyrazophos,DT50_water_d,10.0,measured,K4,Pyrazophos_Ref__HOE_2873.pdf,pdf,,233,Water-sediment DT₅₀ (days)          10                           K4                            Fast
+pyrazophos,LogKow,3.8,measured,L3,Pyrazophos_Ref__HOE_2873.pdf,pdf,,165,coefficient at       Log P            3.8                          L3                       High
+pyridaphenthion,WaterSolubility_mgL,100.0,measured,L3,Pyridafenthion_Ref__ENT_23968.pdf,pdf,,151,Solubility - In water at 20 °C at     100                      L3                       Moderate
+pyridaphenthion,BCF_Lkg,1.4,measured,R3,Pyridafenthion_Ref__ENT_23968.pdf,pdf,,277,Bio-              BCF (l kg⁻¹)     1.4             R3                       Low potential
+pyridaphenthion,Koc_Lkg,7211.0,measured,,Pyridafenthion_Ref__ENT_23968.pdf,pdf,,241,Koc (mL g⁻¹)     7211
+pyridaphenthion,DT50_soil_d,18.0,measured,L3,Pyridafenthion_Ref__ENT_23968.pdf,pdf,,194,DT₅₀ (lab at 20   18                            L3                            Non-persistent
+pyridaphenthion,LogKow,3.2,measured,L3,Pyridafenthion_Ref__ENT_23968.pdf,pdf,,164,coefficient at       Log P            3.2                      L3                       High
+quinalphos,WaterSolubility_mgL,17.8,measured,L3,Quinalphos_Ref__ENT_27397.pdf,pdf,,159,Solubility - In water at 20 °C at     17.8                         L3                       Moderate
+quinalphos,Koc_Lkg,1465.0,measured,,Quinalphos_Ref__ENT_27397.pdf,pdf,,253,Koc (mL g⁻¹)     1465
+quinalphos,LogKow,4.44,measured,L3,Quinalphos_Ref__ENT_27397.pdf,pdf,,169,coefficient at                        4.44                         L3                       High
+tebupirimfos,WaterSolubility_mgL,5.5,measured,L3,Tebupirimfos_Ref__BAY_MAT_7484.pdf,pdf,,155,Solubility - In water at 20 °C at     5.5           L3                       Low
+tebupirimfos,Koc_Lkg,1845.0,measured,,Tebupirimfos_Ref__BAY_MAT_7484.pdf,pdf,,245,Koc (mL g⁻¹)     1845
+tebupirimfos,LogKow,4.19,measured,V3,Tebupirimfos_Ref__BAY_MAT_7484.pdf,pdf,,165,coefficient at                        4.19          V3                       High
+thiometon,WaterSolubility_mgL,200.0,measured,F4,Thiometon_Ref__SAN_230.pdf,pdf,,153,Solubility - In water at 20 °C at     200              F4 at 25 °C              Moderate
+thiometon,BCF_Lkg,174.0,estimated,Q2,Thiometon_Ref__SAN_230.pdf,pdf,,281,Bio-              BCF (l kg⁻¹)     174                        Q2 Estimated             Threshold for concern
+thiometon,Koc_Lkg,579.0,measured,,Thiometon_Ref__SAN_230.pdf,pdf,,245,Koc (mL g⁻¹)     579
+thiometon,LogKow,3.15,measured,L3,Thiometon_Ref__SAN_230.pdf,pdf,,163,coefficient at                        3.15             L3                       High
+triazophos,WaterSolubility_mgL,35.0,measured,B5,Triazophos_Ref__HOE_002960_.pdf,pdf,,158,Solubility - In water at 20 °C at     35                           B5                       Moderate
+triazophos,BCF_Lkg,300.0,estimated,Q2,Triazophos_Ref__HOE_002960_.pdf,pdf,,290,Bio-              BCF (l kg⁻¹)     300                 Q2 Estimated             Threshold for concern
+triazophos,Koc_Lkg,358.0,measured,,Triazophos_Ref__HOE_002960_.pdf,pdf,,254,Koc (mL g⁻¹)     358
+triazophos,DT50_soil_d,44.0,measured,B5,Triazophos_Ref__HOE_002960_.pdf,pdf,,206,DT₅₀ (lab at 20     44                           B5                            Moderately persistent
+triazophos,DT50_water_d,35.0,measured,K3,Triazophos_Ref__HOE_002960_.pdf,pdf,,239,Water-sediment DT₅₀ (days)          35                           K3                            Moderately fast
+triazophos,LogKow,3.55,measured,B5,Triazophos_Ref__HOE_002960_.pdf,pdf,,171,coefficient at       Log P            3.55                         B5                       High
+vamidothion,WaterSolubility_mgL,4000.0,measured,K4,Vamidothion_Ref__ENT_26613.pdf,pdf,,165,Solubility - In water at 20 °C at     4000           K4                       High
+vamidothion,BCF_Lkg,75.0,estimated,Q2,Vamidothion_Ref__ENT_26613.pdf,pdf,,290,Bio-              BCF (l kg⁻¹)     75                         Q2 Estimated             Low potential
+vamidothion,Koc_Lkg,70.0,measured,,Vamidothion_Ref__ENT_26613.pdf,pdf,,254,Koc (mL g⁻¹)     70
+vamidothion,DT50_water_d,7.0,measured,K3,Vamidothion_Ref__ENT_26613.pdf,pdf,,239,Water-sediment DT₅₀ (days)          7                            K3                            Fast
+vamidothion,LogKow,-4.21,measured,L3,Vamidothion_Ref__ENT_26613.pdf,pdf,,175,coefficient at                        -4.21          L3                       Low
+coumaphos,WaterSolubility_mgL,1.5,measured,G3,VSDB_report_181,web,,,Solubility - In water at 20 C 1.5 mg/L (G3); https://sitem.herts.ac.uk/aeru/vsdb/Reports/181.htm
+coumaphos,LogKow,3.86,measured,K3,VSDB_report_181,web,,,Octanol-water partition coefficient Log P 3.86 (K3)
+coumaphos,Koc_Lkg,18000.0,measured,F3,VSDB_report_181,web,,,Koc (mL g-1) 18000 (F3); general literature range 5778-21120
+coumaphos,DT50_soil_d_typical,152.0,measured,F3,VSDB_report_181,web,,,Soil degradation DT50 typical 152 d (F3); general literature 100-300 d; no lab@20 value

@@ -1,0 +1,2301 @@
+{
+ "classes": [
+  {
+   "name": "Water Soluble",
+   "rule": "cls_WaterSoluble",
+   "unit": "mg/L",
+   "gtxt": "solubility \u2265 1000 mg/L",
+   "thr": 1000,
+   "dirn": "ge",
+   "log": true,
+   "ruledef": "MolLogP \u2264 0.95 and TPSA > 74.9",
+   "metrics": {
+    "n": 59,
+    "TP": 7,
+    "FP": 0,
+    "FN": 13,
+    "TN": 39,
+    "precision": 1.0,
+    "recall": 0.35,
+    "specificity": 1.0,
+    "mcc": 0.512348
+   },
+   "compounds": [
+    {
+     "name": "prothiofos",
+     "val": 0.07,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "dialifos",
+     "val": 0.18,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "EPN",
+     "val": 0.5,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos",
+     "val": 1.05,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosalone",
+     "val": 1.4,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "coumaphos",
+     "val": 1.5,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tribufos",
+     "val": 2.3,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos-methyl",
+     "val": 2.74,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenthion",
+     "val": 4.2,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyrazophos",
+     "val": 4.2,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "terbufos",
+     "val": 4.5,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "azinphos-ethyl",
+     "val": 4.5,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tebupirimfos",
+     "val": 5.5,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pirimiphos-methyl",
+     "val": 11.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tetrachlorvinphos",
+     "val": 11.6,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "parathion",
+     "val": 12.4,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fonofos",
+     "val": 13.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosmet",
+     "val": 15.2,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "quinalphos",
+     "val": 17.8,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenitrothion",
+     "val": 19.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "isofenphos",
+     "val": 24.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "bensulide",
+     "val": 25.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "disulfoton",
+     "val": 25.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "azinphos-methyl",
+     "val": 28.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "profenofos",
+     "val": 28.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "triazophos",
+     "val": 35.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phorate",
+     "val": 50.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "methyl parathion",
+     "val": 55.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "edifenphos",
+     "val": 56.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "diazinon",
+     "val": 60.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pirimiphos-ethyl",
+     "val": 93.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyridaphenthion",
+     "val": 100.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "propetamphos",
+     "val": 110.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorfenvinphos",
+     "val": 145.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "malathion",
+     "val": 148.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "thiometon",
+     "val": 200.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "methidathion",
+     "val": 240.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "cadusafos",
+     "val": 245.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "iprobenfos",
+     "val": 540.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "mecarbam",
+     "val": 1000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "ethoprophos",
+     "val": 1300.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "naled",
+     "val": 2000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "heptenophos",
+     "val": 2200.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "formothion",
+     "val": 2600.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "vamidothion",
+     "val": 4000.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "fosthiazate",
+     "val": 9000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "dichlorvos",
+     "val": 18000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "demeton-S-methyl",
+     "val": 22000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "dimethoate",
+     "val": 25900.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "glyphosate",
+     "val": 100000.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "trichlorfon",
+     "val": 120000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "methamidophos",
+     "val": 200000.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "omethoate",
+     "val": 500000.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "mevinphos",
+     "val": 600000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "acephate",
+     "val": 790000.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "monocrotophos",
+     "val": 818000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "phosphamidon",
+     "val": 1000000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "dicrotophos",
+     "val": 1000000.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "oxydemeton-methyl",
+     "val": 1200000.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    }
+   ]
+  },
+  {
+   "name": "Aquatic Bioavailable",
+   "rule": "cls_AquaticBioavail",
+   "unit": "log Kow",
+   "gtxt": "measured log Kow in (0.95, 3.05]",
+   "thr": null,
+   "dirn": "band",
+   "log": false,
+   "ruledef": "0.95 < MolLogP \u2264 3.05 and TotalHBond \u2264 5.5",
+   "metrics": {
+    "n": 60,
+    "TP": 5,
+    "FP": 2,
+    "FN": 9,
+    "TN": 44,
+    "precision": 0.7143,
+    "recall": 0.3571,
+    "specificity": 0.9565,
+    "mcc": 0.413258
+   },
+   "compounds": [
+    {
+     "name": "glyphosate",
+     "val": -6.28,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "vamidothion",
+     "val": -4.21,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "glufosinate",
+     "val": -3.96,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "omethoate",
+     "val": -0.9,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "acephate",
+     "val": -0.85,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "methamidophos",
+     "val": -0.79,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "oxydemeton-methyl",
+     "val": -0.74,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fosetyl",
+     "val": -0.7,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "dicrotophos",
+     "val": -0.5,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "monocrotophos",
+     "val": -0.22,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "mevinphos",
+     "val": 0.127,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "trichlorfon",
+     "val": 0.43,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "dimethoate",
+     "val": 0.75,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosphamidon",
+     "val": 0.795,
+     "pred": true,
+     "truth": false,
+     "cat": "FP",
+     "est": false
+    },
+    {
+     "name": "demeton-S-methyl",
+     "val": 1.32,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "formothion",
+     "val": 1.48,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "fosthiazate",
+     "val": 1.68,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "profenofos",
+     "val": 1.7,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "dichlorvos",
+     "val": 1.9,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "naled",
+     "val": 2.18,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "mecarbam",
+     "val": 2.29,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "heptenophos",
+     "val": 2.32,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "methidathion",
+     "val": 2.57,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "malathion",
+     "val": 2.75,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "phosmet",
+     "val": 2.8,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "azinphos-methyl",
+     "val": 2.96,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "ethoprophos",
+     "val": 2.99,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "methyl parathion",
+     "val": 3.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "thiometon",
+     "val": 3.15,
+     "pred": true,
+     "truth": false,
+     "cat": "FP",
+     "est": false
+    },
+    {
+     "name": "azinphos-ethyl",
+     "val": 3.18,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyridaphenthion",
+     "val": 3.2,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenitrothion",
+     "val": 3.32,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "iprobenfos",
+     "val": 3.37,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tetrachlorvinphos",
+     "val": 3.53,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "triazophos",
+     "val": 3.55,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "diazinon",
+     "val": 3.69,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorfenvinphos",
+     "val": 3.8,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyrazophos",
+     "val": 3.8,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "propetamphos",
+     "val": 3.82,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "parathion",
+     "val": 3.83,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "edifenphos",
+     "val": 3.83,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "cadusafos",
+     "val": 3.85,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "coumaphos",
+     "val": 3.86,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phorate",
+     "val": 3.86,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fonofos",
+     "val": 3.9,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "disulfoton",
+     "val": 3.95,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos-methyl",
+     "val": 4.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosalone",
+     "val": 4.01,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "isofenphos",
+     "val": 4.04,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tebupirimfos",
+     "val": 4.19,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "bensulide",
+     "val": 4.2,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pirimiphos-methyl",
+     "val": 4.2,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "quinalphos",
+     "val": 4.44,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "terbufos",
+     "val": 4.51,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos",
+     "val": 4.7,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenthion",
+     "val": 4.84,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pirimiphos-ethyl",
+     "val": 4.85,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "EPN",
+     "val": 5.02,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tribufos",
+     "val": 5.52,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "prothiofos",
+     "val": 5.67,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    }
+   ]
+  },
+  {
+   "name": "Bioconcentration Risk",
+   "rule": "cls_BioconcRisk",
+   "unit": "BCF (L/kg)",
+   "gtxt": "measured BCF \u2265 2000 L/kg",
+   "thr": 2000,
+   "dirn": "ge",
+   "log": true,
+   "ruledef": "MolLogP > 3.05 and TPSA \u2264 60",
+   "metrics": {
+    "n": 36,
+    "TP": 0,
+    "FP": 1,
+    "FN": 2,
+    "TN": 33,
+    "precision": 0.0,
+    "recall": 0.0,
+    "specificity": 0.9706,
+    "mcc": -0.040996
+   },
+   "compounds": [
+    {
+     "name": "acephate",
+     "val": 0.03,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "trichlorfon",
+     "val": 0.41,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "glyphosate",
+     "val": 0.5,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "demeton-S-methyl",
+     "val": 0.5,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyridaphenthion",
+     "val": 1.4,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "dichlorvos",
+     "val": 3.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "monocrotophos",
+     "val": 3.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "oxydemeton-methyl",
+     "val": 3.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "mevinphos",
+     "val": 3.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "glufosinate",
+     "val": 3.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "heptenophos",
+     "val": 3.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fosetyl",
+     "val": 3.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fosthiazate",
+     "val": 3.2,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "dimethoate",
+     "val": 8.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "methidathion",
+     "val": 12.6,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenitrothion",
+     "val": 29.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "parathion",
+     "val": 40.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "azinphos-methyl",
+     "val": 40.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "methyl parathion",
+     "val": 71.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosmet",
+     "val": 79.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "malathion",
+     "val": 103.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenthion",
+     "val": 154.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosalone",
+     "val": 180.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "cadusafos",
+     "val": 220.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "isofenphos",
+     "val": 240.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorfenvinphos",
+     "val": 250.0,
+     "pred": true,
+     "truth": false,
+     "cat": "FP",
+     "est": false
+    },
+    {
+     "name": "terbufos",
+     "val": 286.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyrazophos",
+     "val": 360.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "disulfoton",
+     "val": 460.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phorate",
+     "val": 483.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "diazinon",
+     "val": 500.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "bensulide",
+     "val": 880.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos",
+     "val": 1374.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos-methyl",
+     "val": 1800.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "EPN",
+     "val": 2346.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "tribufos",
+     "val": 3050.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    }
+   ]
+  },
+  {
+   "name": "Persistence",
+   "rule": "cls_Persistence",
+   "unit": "soil DT50 (d)",
+   "gtxt": "soil DT50 > 60 d (lab@20 \u00b0C, else typical)",
+   "thr": 60,
+   "dirn": "gt",
+   "log": true,
+   "ruledef": "Complexity > 600 and RotBonds > 5",
+   "metrics": {
+    "n": 60,
+    "TP": 0,
+    "FP": 0,
+    "FN": 6,
+    "TN": 54,
+    "precision": null,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "mcc": null
+   },
+   "compounds": [
+    {
+     "name": "omethoate",
+     "val": 0.1,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fosetyl",
+     "val": 0.1,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "malathion",
+     "val": 0.17,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "oxydemeton-methyl",
+     "val": 1.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "naled",
+     "val": 1.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "heptenophos",
+     "val": 1.4,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "vamidothion",
+     "val": 1.8,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "dichlorvos",
+     "val": 2.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tetrachlorvinphos",
+     "val": 2.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosalone",
+     "val": 2.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "disulfoton",
+     "val": 2.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "thiometon",
+     "val": 2.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "dimethoate",
+     "val": 2.5,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenitrothion",
+     "val": 2.7,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "demeton-S-methyl",
+     "val": 2.7,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos-methyl",
+     "val": 2.77,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "mevinphos",
+     "val": 3.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "acephate",
+     "val": 3.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosmet",
+     "val": 3.2,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "methamidophos",
+     "val": 4.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "terbufos",
+     "val": 5.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "monocrotophos",
+     "val": 7.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "profenofos",
+     "val": 7.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "glufosinate",
+     "val": 7.4,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosphamidon",
+     "val": 9.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "diazinon",
+     "val": 9.1,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "methidathion",
+     "val": 10.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tribufos",
+     "val": 10.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "methyl parathion",
+     "val": 12.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pirimiphos-methyl",
+     "val": 12.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "ethoprophos",
+     "val": 13.6,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "parathion",
+     "val": 14.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "formothion",
+     "val": 14.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "EPN",
+     "val": 15.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "iprobenfos",
+     "val": 15.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "glyphosate",
+     "val": 17.3,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "trichlorfon",
+     "val": 18.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyridaphenthion",
+     "val": 18.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "edifenphos",
+     "val": 21.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "quinalphos",
+     "val": 21.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fosthiazate",
+     "val": 26.8,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "dicrotophos",
+     "val": 28.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "propetamphos",
+     "val": 30.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "azinphos-methyl",
+     "val": 31.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenthion",
+     "val": 34.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "mecarbam",
+     "val": 35.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorfenvinphos",
+     "val": 37.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyrazophos",
+     "val": 39.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phorate",
+     "val": 40.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "triazophos",
+     "val": 44.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pirimiphos-ethyl",
+     "val": 45.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "prothiofos",
+     "val": 45.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "azinphos-ethyl",
+     "val": 50.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "cadusafos",
+     "val": 56.7,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "bensulide",
+     "val": 90.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "fonofos",
+     "val": 99.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "isofenphos",
+     "val": 150.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "coumaphos",
+     "val": 152.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "tebupirimfos",
+     "val": 300.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos",
+     "val": 386.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    }
+   ]
+  },
+  {
+   "name": "Soil Mobility",
+   "rule": "cls_SoilMobility",
+   "unit": "Koc (mL/g)",
+   "gtxt": "Koc < 500 mL/g",
+   "thr": 500,
+   "dirn": "lt",
+   "log": true,
+   "ruledef": "MolLogP < 2.5 and TPSA < 90 and \u22121 \u2264 Charge \u2264 1",
+   "metrics": {
+    "n": 56,
+    "TP": 11,
+    "FP": 0,
+    "FN": 12,
+    "TN": 33,
+    "precision": 1.0,
+    "recall": 0.4783,
+    "specificity": 1.0,
+    "mcc": 0.59222
+   },
+   "compounds": [
+    {
+     "name": "methamidophos",
+     "val": 1.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "trichlorfon",
+     "val": 10.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "oxydemeton-methyl",
+     "val": 10.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "monocrotophos",
+     "val": 19.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "formothion",
+     "val": 21.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "phosphamidon",
+     "val": 33.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "omethoate",
+     "val": 41.3,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "mevinphos",
+     "val": 44.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "dichlorvos",
+     "val": 50.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "ethoprophos",
+     "val": 70.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "vamidothion",
+     "val": 70.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "dicrotophos",
+     "val": 75.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "demeton-S-methyl",
+     "val": 90.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "mecarbam",
+     "val": 160.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "heptenophos",
+     "val": 163.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "naled",
+     "val": 180.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "fosthiazate",
+     "val": 239.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "methyl parathion",
+     "val": 240.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "pirimiphos-ethyl",
+     "val": 300.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "acephate",
+     "val": 302.0,
+     "pred": true,
+     "truth": true,
+     "cat": "TP",
+     "est": false
+    },
+    {
+     "name": "propetamphos",
+     "val": 330.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "triazophos",
+     "val": 358.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "methidathion",
+     "val": 400.0,
+     "pred": false,
+     "truth": true,
+     "cat": "FN",
+     "est": false
+    },
+    {
+     "name": "terbufos",
+     "val": 500.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "thiometon",
+     "val": 579.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "isofenphos",
+     "val": 600.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "diazinon",
+     "val": 609.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyrazophos",
+     "val": 646.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorfenvinphos",
+     "val": 680.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fonofos",
+     "val": 870.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tetrachlorvinphos",
+     "val": 900.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pirimiphos-methyl",
+     "val": 1100.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "azinphos-methyl",
+     "val": 1112.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "disulfoton",
+     "val": 1345.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "glyphosate",
+     "val": 1424.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "quinalphos",
+     "val": 1465.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenthion",
+     "val": 1500.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "azinphos-ethyl",
+     "val": 1500.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phorate",
+     "val": 1660.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "malathion",
+     "val": 1800.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tebupirimfos",
+     "val": 1845.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "edifenphos",
+     "val": 1863.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "fenitrothion",
+     "val": 2000.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "profenofos",
+     "val": 2016.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosalone",
+     "val": 2063.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "phosmet",
+     "val": 3534.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "bensulide",
+     "val": 3900.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "EPN",
+     "val": 4000.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos-methyl",
+     "val": 4645.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "iprobenfos",
+     "val": 5030.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "chlorpyrifos",
+     "val": 5509.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "pyridaphenthion",
+     "val": 7211.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "parathion",
+     "val": 7660.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "tribufos",
+     "val": 7700.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "coumaphos",
+     "val": 18000.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    },
+    {
+     "name": "prothiofos",
+     "val": 24158.0,
+     "pred": false,
+     "truth": false,
+     "cat": "TN",
+     "est": false
+    }
+   ]
+  }
+ ],
+ "overview": {
+  "n_compounds": 61,
+  "n_endpoints": 6,
+  "n_values": 293,
+  "coverage": {
+   "WaterSolubility_mgL": 59,
+   "BCF_Lkg": 53,
+   "Koc_Lkg": 56,
+   "DT50_soil_d": 38,
+   "DT50_water_d": 27,
+   "LogKow": 60
+  },
+  "est_bcf": 17
+ }
+}
